@@ -1,0 +1,41 @@
+.questionData{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: rgb(240, 201, 74);
+    width:fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    padding: 5px ;
+   
+    color: green;
+}
+h1{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
+.answeringStyle{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: green;
+    width:fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    padding: 5px ;
+   
+    color: white;
+}
+
+.pageStyle{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.answerStyle{
+    background-color: tomato;
+    border-radius: 25px;
+    padding-left: 20px;
+    height: fit-content;
+   
+}

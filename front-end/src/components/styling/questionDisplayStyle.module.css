@@ -1,0 +1,38 @@
+.questionDisplay{
+    
+    flex-wrap: wrap;
+    align-content: center;
+    /* overflow: scroll; */
+    background-color: greenyellow;
+    border-radius: 25px;
+    width: 100%;
+    
+}
+.titleStyle{
+    color:white;
+    background-color: rgb(24, 199, 24);
+    border-radius: 25px;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 15px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+.topStyle{
+    display: flex;
+    
+    border-radius: 25px;
+    background-color: green;
+    justify-content: space-between;
+    
+}
+.searchBoxStyle{
+    margin-right: 15px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.pageStyle{
+    display:flex;
+    flex-direction: column;
+}

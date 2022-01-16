@@ -1,0 +1,31 @@
+.questioncard{
+    background-color: rgb(240, 201, 74);
+    align-content: flex-end;
+    position:relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 24px;
+    
+}
+.questioncard:hover{
+    background-color: yellowgreen;
+}
+.questioncard:active{
+    background-color: tomato;
+}
+.questionCardContent{
+    text-align: center;
+    object-fit: contain;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    position: absolute;
+    color: green;
+    height: 100px;
+    width: 200px;
+    font-size: small;
+    
+}
+.questionCardContent:active{
+    color: rgb(139, 55, 40);
+}

@@ -1,0 +1,38 @@
+.createQuestion{
+    background-color: rgb(66, 204, 66);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+input{
+    background-color: tomato;
+    border-width: 0px;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    resize: both;
+}
+label{
+    padding: 5px;
+}
+input[type=submit]{
+    border-radius: 25px;
+    background-color: thistle;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+input[type=submit]:hover{
+    background-color: tomato;
+    color:rgb(165, 62, 44);
+}
+input:focus{
+    background-color: turquoise;
+    border: 0px transparent;
+}
+button{
+    border-radius: 25px;
+    border: 0px transparent;
+    background-color: thistle;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
